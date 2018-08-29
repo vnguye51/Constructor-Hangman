@@ -9,7 +9,6 @@ startGame()
 function startGame(){
     var randomWord = possibleWords[Math.floor(Math.random()*possibleWords.length)]
     var word = new Word(randomWord)
-    console.log(word)
     promptGuess()
     
     function promptGuess(){
